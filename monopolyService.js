@@ -119,3 +119,4 @@ function deletePlayer(req, res, next) {
       next(err);
     });
 }
+
