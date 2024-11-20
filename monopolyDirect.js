@@ -26,7 +26,7 @@ const db = pgp({
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   // For SSL, see: https://stackoverflow.com/questions/22301722/ssl-for-postgresql-connection-nodejs
-  add ssl: {
+  ssl: {
     rejectUnauthorized: false,
     },
 });
